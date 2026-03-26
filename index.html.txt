@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moonbebe26</title>
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f9fafb;
+  color: #111;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: white;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>Moonbebe26</h2>
+</nav>
+
+<div class="section">
+<h1>Webtoon Artist</h1>
+<p>Full Color Webtoon Panel $15</p>
+</div>
+
+<div class="gallery">
+<img src="portfolio1.png">
+<img src="portfolio2.png">
+<img src="portfolio3.png">
+</div>
+
+<div class="section">
+<h2>Contact</h2>
+
+<form action="https://formspree.io/f/meepqndw" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" placeholder="Your Message" required></textarea>
+<button type="submit">Send</button>
+</form>
+
+</div>
+
+</body>
+</html>
