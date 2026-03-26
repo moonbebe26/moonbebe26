@@ -1,114 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moonbebe26 | Full Color Webtoon Service</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #0f172a;
-      color: #fff;
-    }
-    header {
-      text-align: center;
-      padding: 60px 20px;
-      background: linear-gradient(135deg, #7c3aed, #ec4899);
-    }
-    header h1 {
-      font-size: 2.7rem;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 1.2rem;
-    }
-    .container {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .card {
-      background: #1e293b;
-      border-radius: 15px;
-      padding: 25px;
-      margin-bottom: 25px;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.3);
-    }
-    .price {
-      font-size: 1.8rem;
-      color: #22c55e;
-      margin-top: 10px;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 14px 22px;
-      background: #22c55e;
-      color: #000;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: bold;
-      transition: 0.2s;
-    }
-    .btn:hover {
-      background: #16a34a;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #020617;
-      font-size: 0.9rem;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moonbebe26</title>
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f9fafb;
+  color: #111;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: white;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+}
+</style>
 </head>
+
 <body>
 
-<header>
-  <h1>Moonbebe26</h1>
-  <p>I bring your story to life with full-color Korean webtoon pages ✨</p>
-</header>
+<nav>
+<h2>Moonbebe26</h2>
+</nav>
 
-<div class="container">
-
-  <div class="card">
-    <h2>🎨 Service</h2>
-    <p>I create high-quality <strong>full-color webtoon panels</strong> with cinematic composition, expressive characters, and professional finishing.</p>
-  </div>
-
-  <div class="card">
-    <h2>💰 Pricing</h2>
-    <p>Full Color Webtoon Panel</p>
-    <div class="price">$15 / panel</div>
-    <p style="margin-top:15px;">🔥 <strong>10% discount</strong> for orders of <strong>30 panels or more</strong></p>
-  </div>
-
-  <div class="card">
-    <h2>📝 Important</h2>
-    <ul>
-      <li>I focus on artwork only (visual & paneling)</li>
-      <li>Story and script must be provided by the client</li>
-      <li>Please provide clear references before ordering</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>💳 Payment</h2>
-    <p>Payment via PayPal</p>
-    <a class="btn" href="https://www.paypal.com/paypalme/moonbebe26" target="_blank">Pay with PayPal</a>
-  </div>
-
-  <div class="card">
-    <h2>📩 Contact</h2>
-    <p>Email: moonbebe@gmail.com</p>
-    <p>Feel free to message me for commissions</p>
-  </div>
-
+<div class="section">
+<h1>Webtoon Artist</h1>
+<p>Full Color Webtoon Panel $15</p>
 </div>
 
-<footer>
-  <p>© 2026 Moonbebe26 | Webtoon Commission</p>
-</footer>
+<div class="gallery">
+<img src="portfolio1.png">
+<img src="portfolio2.png">
+<img src="portfolio3.png">
+</div>
+
+<div class="section">
+<h2>Contact</h2>
+
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" placeholder="Your Message" required></textarea>
+<button type="submit">Send</button>
+</form>
+
+</div>
 
 </body>
 </html>
